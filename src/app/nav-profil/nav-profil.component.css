@@ -1,0 +1,33 @@
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */
+    .jaune{
+        color: #aaff80;
+    }
+
+    .italique{
+        font-style: italic;
+        font-size: 13px;
+    }
+
+    .navDecalage{
+        margin-left: 15%;
+    }
+
+    .navTitre{
+        font-size: 15px;
+    }
+
+
+}
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+.navDecalage{
+    margin-left: 15%;
+    margin-top: 10%;
+}
+.navTitre{
+    font-size: 30px;
+
+}
+.italique{
+    font-style: italic;
+    font-size: 23px;
+}}

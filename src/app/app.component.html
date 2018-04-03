@@ -1,0 +1,22 @@
+<div class="container-fluid">
+
+   <div class="row" id="page">
+       <div class="col-12 col-md-6" id="displayComponent">
+           <router-outlet></router-outlet>
+       </div>
+       <div id="moiBas" class="col-12 col-md-6">
+           <a [routerLink]="['/profil']"><div class="navigation bgProfile">
+               <app-nav-profil></app-nav-profil>
+           </div></a>
+           <a [routerLink]="['/resume']"><div class=" navigation bgResume">
+               <app-nav-resume></app-nav-resume>
+           </div></a>
+           <a [routerLink]="['/projets']"><div class=" navigation bgProjets">
+               <app-nav-projets></app-nav-projets>
+           </div></a>
+           <a [routerLink]="['/contact']"><div class="navigation bgContact">
+               <app-nav-contact></app-nav-contact>
+           </div></a>
+       </div>
+   </div>
+</div>

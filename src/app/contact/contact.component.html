@@ -1,0 +1,49 @@
+<embed src="assets/son/346.mp3" width="0" height="0" autostart="true" loop="False" align="left">
+
+<div class="text-right">
+  <a [routerLink]="['/introduction']"><img class="" src="https://png.icons8.com/ios/48/000000/delete-sign-filled.png"></a>
+</div>
+
+        <div class="col-12 text-center">
+            <h3 class="titre typewriter">CO<span class="jaune">N</span>TACT</h3>
+        </div>
+        <div class="text-center">
+          <p>Formulaire non fonctionnel (en cours de développement).</p>
+        </div>
+        <div class="col-12 text-center">
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Votre nom">
+              </div>
+              <div class="form-group">
+                <input type="mail" class="form-control" id="exampleFormControlInput1" placeholder="Votre mail">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Votre message"></textarea>
+              </div>
+              <button type="submit" class="btn vert col-10">Envoyer</button>
+            </form>
+        </div>
+
+        <div class="map-responsive">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2775.120407735795!2d1.0271913157884442!3d45.928893210336106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47feb8db5f7af879%3A0xab3a28c146bfdb5!2s39+Rue+des+Garennes%2C+87520+Oradour-sur-Glane!5e0!3m2!1sfr!2sfr!4v1522065775659" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+
+        <div class="col-12 text-center">
+            <h6 class="sousTitre">{{Titre}}</h6>
+        </div>
+
+        <div class="col-12 text-center">
+            <img class="logo" src="https://png.icons8.com/ios/48/000000/order-delivered-filled.png">
+            <p>{{Adresse}}</p>
+            <div class="spacer"></div>
+            <img class="logo" src="https://png.icons8.com/ios/48/000000/phone-filled.png">
+            <p>{{Telephone}}</p>
+            <div class="spacer"></div>
+            <img class="logo" src="https://png.icons8.com/ios/48/000000/new-post-filled.png">
+            <p>{{Mail}}</p>
+            <div class="spacer"></div>
+            <img class="logo" src="https://png.icons8.com/ios/48/000000/youtube-squared-filled.png">
+            <a target="_blank" href="https://www.youtube.com/channel/UCQIVhNMpbvqlDbWyWMt0c-A?pbjreload=10"><p>{{Youtube}}</p></a>
+         </div>
+            <app-footer></app-footer>

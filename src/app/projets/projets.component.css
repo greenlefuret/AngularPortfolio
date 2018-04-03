@@ -1,0 +1,34 @@
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */
+    .spacer{
+        margin: 20px;
+    }
+
+    .titre{
+        font-size: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-bottom : 1px solid #aaff80;
+    }
+
+    .jaune{
+        color: #aaff80;
+    }
+
+    .backJaune{
+        background-color: #aaff80;
+
+    }
+    .vert{
+      background-color: #aaff80;
+    }
+    .tailleFooter{
+      height: 60px;
+      padding-top: 10px;
+    }
+}
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+.tailleFooter{
+  height: 40px;
+  padding-top: 10px;
+}
+}

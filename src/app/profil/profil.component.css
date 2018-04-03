@@ -1,0 +1,55 @@
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */
+    .jaune{
+        color: #aaff80;
+    }
+
+    .titre{
+        font-size: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-bottom : 1px solid #aaff80;
+    }
+
+    .txtLabel{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: 'Permanent Marker', cursive;
+        font-size: 20px;
+    }
+    .vert{
+      background-color: #aaff80;
+    }
+    .photoMoi{
+        border: 1px solid #aaff80;
+        border-radius: 8px;
+        height: 300px;
+        width: auto;
+
+    }
+
+   .resumeProfile{
+     font-family: 'Cookie', cursive;
+     font-size: 30px;
+   }
+
+    .btnHire{
+        margin-bottom: 25px;
+    }
+    .footerProfil{
+      position: absolute;
+      bottom: 0px;
+      width: 100%;
+    }
+
+}
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+.footerProfil{
+   position: absolute;
+   bottom: 0px;
+   width: 100%;
+}
+.resumeProfile{
+  font-family: 'Cookie', cursive;
+  font-size: 40px;
+}
+}

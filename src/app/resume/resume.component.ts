@@ -21,6 +21,7 @@ Skills2 = 'JAVASCRIPT';
 Skills3 = 'PHP';
 Skills4 = 'ANGULAR';
 Skills5 = 'MYSQL';
+Skills6 = 'GITHUB';
 Titre1 = 'EXPERIENCE';
 Titre2 = 'SKILLS';
 Titre3 = 'HOBBIES';

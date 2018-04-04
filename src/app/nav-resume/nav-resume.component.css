@@ -10,12 +10,12 @@
 
     .navDecalage{
         margin-left: 15%;
-        
+
     }
 
     .navTitre{
         font-size: 15px;
-
+        color: white;
     }
 
 
@@ -29,7 +29,7 @@
 
 .navTitre{
     font-size: 30px;
-
+    color: white;
 }
 .italique{
     font-style: italic;

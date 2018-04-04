@@ -1,1 +1,52 @@
 
+  .lll{
+    color: #aaff80;;
+    position: absolute;
+    z-index: 2;
+    top: 10%;
+    left: 32%;
+    font-size: 180%;
+    font-family: 'Permanent Marker', cursive;}
+
+    .mmmm{
+      color: #aaff80;;
+      position: absolute;
+      z-index: 2;
+      top: 80%;
+      left: 35%;
+      font-size: 180%;
+      font-family: 'Permanent Marker', cursive;
+      }
+      .moi{
+        position: absolute;
+         z-index: 1;
+         border: 10px solid black;
+         border-radius:
+      }
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+
+.lll{
+  color: #aaff80;;
+position: absolute;
+ z-index: 2;
+top: 10%;
+left: 32%;
+font-size: 280%;
+font-family: 'Permanent Marker', cursive;}
+
+.mmmm{
+  color: #aaff80;;
+position: absolute;
+ z-index: 2;
+top: 80%;
+left: 37%;
+font-size: 280%;
+font-family: 'Permanent Marker', cursive;}
+
+.moi{
+  position: absolute;
+   z-index: 1;
+   border: 10px solid black;
+   border-radius:
+}
+}

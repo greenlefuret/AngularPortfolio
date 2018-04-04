@@ -10,7 +10,7 @@ Adresse='Oradour sur Glane 39 rue des garennes';
 Telephone='Tel: 06.44.71.11.34';
 Mail='florianbourgeois87@gmail.com ';
 Titre='Détails';
-Youtube='https://www.youtube.com/channel/UCQIVhNMpbvqlDbWyWMt0c-A?pbjreload=10 ';
+Youtube='---> Ma chaine Youtube <---';
   constructor() { }
 
   ngOnInit() {

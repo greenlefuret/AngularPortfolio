@@ -10,13 +10,17 @@
 
     .navDecalage{
         margin-left: 15%;
-
+        color: white;
+    }
+    .navDecalage:hover {color: green;
+      text-decoration: none;
     }
 
     .navTitre{
         font-size: 15px;
-        color: white;
+
     }
+
 
 
 }

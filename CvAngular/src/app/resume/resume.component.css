@@ -1,0 +1,108 @@
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */
+    .bg-jaune{
+        background-color :#aaff80;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+
+
+
+    .titre{
+        font-size: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-bottom : 1px solid #aaff80;
+    }
+
+    .blanc{
+        color:  	black;
+        font-family: 'Permanent Marker', cursive;
+    }
+
+    .titreExp{
+        margin-top: 40px;
+        font-size: 12px;
+    }
+
+    .petitTitre{
+        text-decoration: underline;
+    }
+
+    .html {
+        width: 80%;
+        height: 20px;
+        background-color: #006622;
+        margin-bottom: 20px;
+        color: white;
+    }
+
+    .barreRed {
+        width: 100%;
+        height: 24px;
+        background-color: red;
+        border: 2px solid black;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+
+    .javascript {
+        width: 60%;
+        height: 20px;
+        background-color:  	#006622;
+        margin-bottom: 20px;
+        color: white;
+    }
+
+    .php {
+        width: 30%;
+        height: 20px;
+        background-color: #006622;
+        margin-bottom: 20px;
+        color: white;
+    }
+    .GitHub {
+        width: 70%;
+        height: 20px;
+        background-color: #006622;
+        margin-bottom: 20px;
+        color: white;
+    }
+    .jaune{
+        color: #aaff80;
+    }
+
+    .angular {
+        width: 50%;
+        height: 20px;
+        background-color:  	 #006622;
+        margin-bottom: 20px;
+        color: white;
+    }
+
+    .mysql {
+        width: 40%;
+        height: 20px;
+        background-color: #006622;
+        margin-bottom: 20px;
+        color: white;
+
+    }
+   .img_hobbies{
+     height: 180px;
+     width: 180px;
+   }
+   .skills{
+     font-size: 15px;
+   }
+}
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+
+  .titreExp{
+      margin-top: 40px;
+      font-size: 20px;
+  }
+  .skills{
+    font-size: 25px;
+  }
+}

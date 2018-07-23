@@ -1,0 +1,31 @@
+<div class="container-fluid">
+
+   <div class="row" id="page">
+       <div class="col-12 col-md-6" id="displayComponent">
+<!-- endroit d'affichage de la destination des routes -->
+           <router-outlet></router-outlet>
+       </div>
+       <div id="moiBas" class="col-12 col-md-6">
+<!-- creation de la route -->
+           <a [routerLink]="['/profil']"><div class="navigation bgProfile">
+<!-- appel du app.profil.ts -->
+               <app-nav-profil></app-nav-profil>
+           </div></a>
+<!-- creation de la route -->
+           <a [routerLink]="['/resume']"><div class=" navigation bgResume">
+<!-- appel du app.resume.ts -->
+               <app-nav-resume></app-nav-resume>
+           </div></a>
+<!-- creation de la route -->
+           <a [routerLink]="['/projets']"><div class=" navigation bgProjets">
+<!-- appel du app.projets.ts -->
+               <app-nav-projets></app-nav-projets>
+           </div></a>
+<!-- creation de la route -->
+           <a [routerLink]="['/contact']"><div class="navigation bgContact">
+<!-- appel du app.contact.ts -->
+               <app-nav-contact></app-nav-contact>
+           </div></a>
+       </div>
+   </div>
+</div>

@@ -1,0 +1,105 @@
+<!-- Son  a l'ouverture de la page -->
+<embed src="assets/son/346.mp3" width="0" height="0" autostart="true" loop="False" align="left">
+<!-- croix pour retour vers acceuil -->
+<div class="text-right">
+  <a [routerLink]="['/introduction']"><img class="logo" src="https://png.icons8.com/ios/48/000000/delete-sign-filled.png"></a>
+</div>
+<!-- Page resume -->
+    <div class="container fond">
+          <div class="text-center">
+              <h3 class="typewriter titre">RE<span class="jaune">S</span>UME</h3>
+          </div>
+    </div>
+    <div class="text-center petitTitre">
+          <h6>{{Titre1}}</h6>
+    </div>
+<!-- Ecriture des infos venant de la bdd -->
+    <div class="container fond">
+<!-- boucle de recup des donnees -->
+       <div class="text-center" *ngFor="let post of _postsArray">
+                  <p class="col-md-8 offset-md-2 col-12 text-center titreExp bg-jaune blanc">{{post.date}}</p>
+                  <p class="text-center">{{post.resume}}</p>
+       </div>
+<!-- fin boucle de recup des donnees -->
+    </div>
+
+<!-- skills -->
+    <div class="bg-jaune">
+        <div class="text-center petitTitre">
+              <h6>{{Titre2}}</h6>
+        </div>
+        <div class="container fond">
+              <p class="skills text-center blanc">{{Skills1}}</p>
+              <div class="barreRed">
+                  <div class="html">
+                    80%
+                  </div>
+              </div>
+        </div>
+        <div class="container fond">
+              <p class="skills text-center blanc">{{Skills2}}</p>
+              <div class="barreRed">
+                  <div class="javascript">
+                    60%
+                  </div>
+              </div>
+        </div>
+        <div class="container fond">
+              <p class="skills text-center blanc">{{Skills3}}</p>
+              <div class="barreRed">
+                  <div class="php">
+                    30%
+                  </div>
+              </div>
+        </div>
+        <div class="container fond">
+              <p class="skills text-center blanc">{{Skills4}}</p>
+              <div class="barreRed">
+                  <div class="angular">
+                    50%
+                  </div>
+              </div>
+        </div>
+        <div class="container fond">
+              <p class="skills text-center blanc">{{Skills5}}</p>
+              <div class="barreRed">
+                  <div class="mysql">
+                    40%
+                  </div>
+              </div>
+        </div>
+        <div class="container fond">
+              <p class="skills text-center blanc">{{Skills6}}</p>
+              <div class="barreRed">
+                  <div class="GitHub">
+                    70%
+                  </div>
+              </div>
+        </div>
+   </div>
+
+<!-- hobbies -->
+   <div class="text-center petitTitre">
+         <h6>{{Titre3}}</h6>
+   </div>
+   <div class="container">
+     <div class="row">
+
+
+       <div class="text-center col-12 col-md-6  fond">
+             <p class="petitTitre">{{Hobbies1}}</p>
+             <img class="img_hobbies" src="assets/img/petanque.gif" alt="petanque">
+       </div>
+       <div class="text-center col-12 col-md-6 fond">
+             <p class="petitTitre">{{Hobbies2}}</p>
+             <img class=" img_hobbies" src="assets/img/jeux.gif" alt="jeux">
+       </div>
+       <div class="text-center col-12  fond">
+             <p class="petitTitre">{{Hobbies3}}</p>
+             <img class=" img_hobbies" src="assets/img/chat.gif" alt="jeux">
+       </div>
+       </div>
+   </div>
+
+<!-- appel du footer -->
+<app-footer></app-footer>
